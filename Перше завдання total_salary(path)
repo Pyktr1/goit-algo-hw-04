@@ -21,6 +21,7 @@ def total_salary(path):
             # обчислення середньої зарплати
             average = total / count if count > 0 else 0
 
+            # повернення повної і типової зарплати
             return (total, average)
 
     # обробка помилки якщо файл відсутній

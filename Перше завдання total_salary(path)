@@ -12,7 +12,7 @@ def total_salary(path):
                 # розділяєм ім'я та зарплату
                 name, salary = line.strip().split(',')
                 total += int(salary)
-                count += 1
+                count += bool(salary)
 
             # якщо файл порожній
             if count == 0:
